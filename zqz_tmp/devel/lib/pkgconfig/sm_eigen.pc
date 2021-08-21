@@ -1,0 +1,8 @@
+prefix=/home/nvidia/zqz_tmp/devel
+
+Name: sm_eigen
+Description: Description of sm_eigen
+Version: 0.0.1
+Cflags: -I/home/nvidia/zqz_tmp/src/kalibr/Schweizer-Messer/sm_eigen/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lsm_eigen
+Requires: 

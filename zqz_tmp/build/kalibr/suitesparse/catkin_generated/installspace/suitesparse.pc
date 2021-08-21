@@ -1,0 +1,8 @@
+prefix=/home/nvidia/zqz_tmp/install
+
+Name: suitesparse
+Description: Description of suitesparse
+Version: 4.2.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lsuitesparse
+Requires: 

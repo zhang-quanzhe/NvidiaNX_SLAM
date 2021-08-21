@@ -1,0 +1,2 @@
+realsense-ros/realsense2_camera:realsense-ros/realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/catkin_realsense/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/catkin_realsense/install -G Unix Makefiles

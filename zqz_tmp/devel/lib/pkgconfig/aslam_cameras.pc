@@ -1,0 +1,8 @@
+prefix=/home/nvidia/zqz_tmp/devel
+
+Name: aslam_cameras
+Description: Description of aslam_cameras
+Version: 0.0.1
+Cflags: -I/home/nvidia/zqz_tmp/src/kalibr/aslam_cv/aslam_cameras/include
+Libs: -L${prefix}/lib -laslam_cameras
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/zqz_tmp/install
+
+Name: kalibr
+Description: Description of kalibr
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lkalibr_errorterms
+Requires: aslam_cv_backend_python aslam_backend_python incremental_calibration_python aslam_splines_python

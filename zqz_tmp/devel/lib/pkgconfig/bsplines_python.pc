@@ -1,0 +1,8 @@
+prefix=/home/nvidia/zqz_tmp/devel
+
+Name: bsplines_python
+Description: Description of bsplines_python
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

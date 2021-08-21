@@ -1,0 +1,8 @@
+prefix=/home/nvidia/zqz_tmp/devel
+
+Name: suitesparse
+Description: Description of suitesparse
+Version: 4.2.1
+Cflags: -I/home/nvidia/zqz_tmp/src/kalibr/suitesparse/include
+Libs: -L${prefix}/lib -lsuitesparse
+Requires: 

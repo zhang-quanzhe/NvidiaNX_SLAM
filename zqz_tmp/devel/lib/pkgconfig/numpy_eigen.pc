@@ -1,0 +1,8 @@
+prefix=/home/nvidia/zqz_tmp/devel
+
+Name: numpy_eigen
+Description: Description of numpy_eigen
+Version: 0.0.1
+Cflags: -I/home/nvidia/zqz_tmp/src/kalibr/Schweizer-Messer/numpy_eigen/include
+Libs: -L${prefix}/lib -lnumpy_eigen
+Requires: 

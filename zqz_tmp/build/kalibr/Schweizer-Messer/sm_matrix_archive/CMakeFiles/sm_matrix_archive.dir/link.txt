@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -Wextra -std=c++0x -O3 -DNDEBUG  -shared -Wl,-soname,libsm_matrix_archive.so -o /home/nvidia/zqz_tmp/devel/lib/libsm_matrix_archive.so CMakeFiles/sm_matrix_archive.dir/src/MatrixArchive.cpp.o -Wl,-rpath,/home/nvidia/zqz_tmp/devel/lib /home/nvidia/zqz_tmp/devel/lib/libsm_common.so -lboost_system -lboost_filesystem -lpthread 

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/zqz_tmp/devel
+
+Name: sm_common
+Description: Description of sm_common
+Version: 0.0.1
+Cflags: -I/home/nvidia/zqz_tmp/src/kalibr/Schweizer-Messer/sm_common/include
+Libs: -L${prefix}/lib -lsm_common
+Requires: 
